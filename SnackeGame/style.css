@@ -1,0 +1,146 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 800px;
+    margin: 0 auto;
+}
+
+header h1{
+    color: #fff;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.tableGame{
+    /* width: 300px; */
+    /* height: 300px; */
+    border: 2px solid rgb(209, 52, 52);
+}
+
+.table_td{
+    width: 18px;
+    height: 18px;
+}
+
+.snackeUnit{
+    background-color: rgb(92, 148, 8);
+    border: 1px solid rgb(92, 148, 8);
+}
+
+.foodUnit{
+    background-color: rgb(223, 185, 36);
+    border: 1px solid rgb(223, 185, 36);
+}
+
+.btnDiv .notactive{
+    background-color: rgb(129, 127, 127);
+    color: black;
+}
+
+.counterDiv{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+}
+.counterDiv span{
+    margin-left: 11px;
+    color: red;
+    font-size: 36px;
+}
+
+.snackeDasck{
+    margin: 0 32% ;
+    display: flex;
+    justify-content: center;
+}
+
+.btnDiv{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.btnDiv button{
+    width: 120px;
+    height: 45px;
+    margin: 0 20px;
+    font-size: 24px;
+    font-weight: 600;
+    background-color: #fff;
+    border: 2px solid red;
+    color: red;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btnDiv .btnStart{
+    background-color: rgb(201, 230, 177);
+}
+.btnDiv .btnRestart{
+    background-color: rgb(231, 174, 98);
+}
+
+.finishCount{
+    margin-top: 50px;
+    font-size: 44px;
+    text-align: center;
+    font-weight: 900;
+    color: red;
+}
+
+
+
+
+.footer__item{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.footer__item a{
+    color: #fff;
+    cursor: pointer;
+}
+
+.footer__item p{
+    margin-left: 12px;
+}
+
+.logoRss{
+    width: 150px;
+    height: 60px;
+    fill:#fff;
+}
+
+.footer{
+    background-color: #000;
+}
+
+.footerIt{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+@media (max-width: 970px){
+    .footerIt{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__item{
+        margin: 40px 0;
+    }
+}
