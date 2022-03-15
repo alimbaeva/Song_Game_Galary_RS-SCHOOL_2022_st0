@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eco Sounds 2022</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__nav">
+                <svg class="logo">
+                    <use xlink:href='./assets/sprite.svg#logotype'></use>
+                </svg>
+                <nav>
+                    <ul>
+                        <li data-song="solovey" class="activ"> Соловей</li>
+                        <li data-song="drozd">Дрозд</li>
+                        <li data-song="zarynka">Малиновка</li>
+                        <li data-song="javoronok">Жаворонок</li>
+                        <li data-song="slavka">Славка</li>
+                        <li data-song="forest">Лес</li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <!-- <img id="img" src="./assets/images/solovey.jpg" alt=""> -->
+        <button class="playStop">
+            <svg class="button play">
+                <use data-plbtn="play" xlink:href='./assets/sprite.svg#play'></use>
+            </svg>
+            <svg class="button pause blockPlayNon">
+                <use data-plbtn="pause" xlink:href='./assets/sprite.svg#pause'></use>
+            </svg>
+        </button>
+        <button class="dounload">
+            <svg class="dounloadSvg">
+                <use xlink:href='./assets/sprite.svg#dounload'></use>
+            </svg>
+        </button>
+    </main>
+    <footer class="footer">
+        <div class="container footerIt">
+            <div class="footer__item">
+                &#169;
+                <p> 2022 </p>
+                <p><a href="https://github.com/alimbaeva">alimbaeva</a></p>
+            </div>
+            <div class="">
+                <a href="https://rs.school/">
+                    <svg class="logoRss">
+                        <use xlink:href='./assets/sprite.svg#rss'></use>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+
+</html>
